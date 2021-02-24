@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "list.h"
-
+#include "gpio.h"
 
 void bss_to_zero();
 

@@ -16,7 +16,7 @@ OBJS = \
 	boot.o \
 	kernel_main.o \
 	list.o \
-
+	gpios.o \
 
 OBJ = $(patsubst %,$(ODIR)/%,$(OBJS))
 
