@@ -16,7 +16,7 @@ void led_on(){
 void led_off(){
 	*gpclr1 = (1 << 10);
 } 
-
+//thank you haris for the delay!
 void led_delay(){
 	unsigned int x = 0;
 	for (x; x<100000; x++){
