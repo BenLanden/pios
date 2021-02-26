@@ -26,7 +26,7 @@ void kernel_main(){
 	while (1){
 	*/
 
-	esp_printf(putc, "memory location: %d\r\n" 'c')
+	esp_printf(putc, "memory location: %d\r\n", kernel_main)
 	}
 }
 
