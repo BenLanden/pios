@@ -1,5 +1,3 @@
-
-
 CC := gcc
 LD := ld
 OBJDUMP := objdump
@@ -17,6 +15,8 @@ OBJS = \
 	kernel_main.o \
 	list.o \
 	gpios.o \
+	rprintf.o \
+	serial.o \
 
 OBJ = $(patsubst %,$(ODIR)/%,$(OBJS))
 
