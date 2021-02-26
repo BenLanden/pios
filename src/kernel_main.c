@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "list.h"
 #include "gpio.h"
+#include "rprintf.h"
+#include "serial.h"
 
 void bss_to_zero();
 
@@ -17,11 +19,14 @@ struct list_element *head = &a;
 struct list_element* list = &a;
 
 void kernel_main(){
-	bss_to_zero();
+	/*bss_to_zero();
 	list_add(list, &b);
 	list_add(list, &c);
 	list_remove(head, 1);
 	while (1){
+	*/
+
+	esp_printf(putc, "memory location: %d\r\n" 'c')
 	}
 }
 
